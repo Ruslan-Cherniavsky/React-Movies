@@ -13,7 +13,7 @@ function Main() {
     const [movieType, setMovieType] = useState("");
     const [isLoading, setLoading] = useState(true);
 
-    const URL = `http://www.omdbapi.com/?apikey=${API_KEY}&s=`;
+    const URL = `https://www.omdbapi.com/?apikey=${API_KEY}&s=`;
 
     function movieSearch(data) {
         setMovieInput(data.toLowerCase().replace(/\s+/g, ""));

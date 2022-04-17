@@ -2,7 +2,7 @@
   "name": "my-udp1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Ruslan-Cherniavsky.github.io/React-Movies",
+  "homepage": "https://Ruslan-Cherniavsky.github.io/React-Movies",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
