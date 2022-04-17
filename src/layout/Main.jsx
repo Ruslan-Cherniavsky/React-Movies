@@ -32,7 +32,8 @@ function Main() {
                 .then((response) => response.json())
                 .then((data) => setLoad(data));
         } catch (err) {
-            await console.log(moviesData);
+            console.error(err);
+            setLoading(false);
         }
     }, [console.log(moviesData), movieInput, movieType]);
 
